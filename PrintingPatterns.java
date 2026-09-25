@@ -7,7 +7,7 @@ public class PrintingPatterns {
             if (size % 2 != 0) {
                 System.out.println("* # * # *");
             }
-            else if (size % 2 == 0) {
+            else if (size%2 ==0) {
                 System.out.println("# * # * #");
             }
             size--;
